@@ -2,36 +2,45 @@
   "consumer": {
     "name": "personConsumer"
   },
-  "provider": {
-    "name": "personProvider"
-  },
   "interactions": [
     {
       "description": "GET person for id: abc-123-def-456",
-      "providerState": "Person Dade Murphy (Zero Cool) exists",
+      "providerStates": [
+        {
+          "name": "Person Dade Murphy (Zero Cool) exists"
+        }
+      ],
       "request": {
-        "method": "GET",
-        "path": "/person/abc-123-def-456",
         "headers": {
           "Accept": "application/json"
-        }
+        },
+        "method": "GET",
+        "path": "/person/abc-123-def-456"
       },
       "response": {
-        "status": 200,
+        "body": {
+          "alias": "Zero Cool",
+          "first_name": "Dade",
+          "last_name": "Murphy"
+        },
         "headers": {
           "Content-Type": "application/json"
         },
-        "body": {
-          "first_name": "Dade",
-          "last_name": "Murphy",
-          "alias": "Zero Cool"
-        }
+        "status": 200
       }
     }
   ],
   "metadata": {
+    "pactRust": {
+      "ffi": "0.4.4",
+      "mockserver": "1.0.3",
+      "models": "1.0.13"
+    },
     "pactSpecification": {
-      "version": "2.0.0"
+      "version": "3.0.0"
     }
+  },
+  "provider": {
+    "name": "personProvider"
   }
 }
