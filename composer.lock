@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "356b7762626a0f99f828f6a12f4775f0",
+    "content-hash": "944b9d97a2d4ca583d0b5102e3bf0599",
     "packages": [
         {
             "name": "fig/http-message-util",
@@ -574,12 +574,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/slimphp/Slim.git",
-                "reference": "8298785288f38f6a744c57cabf350e2b887699ee"
+                "reference": "e9e99c2b24398b967841c6c4c3048622cc7e2b18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slimphp/Slim/zipball/8298785288f38f6a744c57cabf350e2b887699ee",
-                "reference": "8298785288f38f6a744c57cabf350e2b887699ee",
+                "url": "https://api.github.com/repos/slimphp/Slim/zipball/e9e99c2b24398b967841c6c4c3048622cc7e2b18",
+                "reference": "e9e99c2b24398b967841c6c4c3048622cc7e2b18",
                 "shasum": ""
             },
             "require": {
@@ -682,7 +682,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-06-05T02:23:29+00:00"
+            "time": "2023-07-23T04:54:29+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
@@ -1399,16 +1399,16 @@
         },
         {
             "name": "pact-foundation/pact-php",
-            "version": "dev-ffi-next",
+            "version": "dev-ffi",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pact-foundation/pact-php.git",
-                "reference": "966934c06a968ef52d9c3abde949654dc81e86a3"
+                "reference": "91d9006b585b9ede4729a6b114529a83e30fed19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pact-foundation/pact-php/zipball/966934c06a968ef52d9c3abde949654dc81e86a3",
-                "reference": "966934c06a968ef52d9c3abde949654dc81e86a3",
+                "url": "https://api.github.com/repos/pact-foundation/pact-php/zipball/91d9006b585b9ede4729a6b114529a83e30fed19",
+                "reference": "91d9006b585b9ede4729a6b114529a83e30fed19",
                 "shasum": ""
             },
             "require": {
@@ -1487,9 +1487,9 @@
             ],
             "support": {
                 "issues": "https://github.com/pact-foundation/pact-php/issues",
-                "source": "https://github.com/pact-foundation/pact-php/tree/ffi-next"
+                "source": "https://github.com/pact-foundation/pact-php/tree/ffi"
             },
-            "time": "2023-07-18T17:57:38+00:00"
+            "time": "2023-07-24T15:14:58+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -1861,12 +1861,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "a113f0c31267a68dcae2a82f60a5b86ab4c96204"
+                "reference": "4a1ab8e11e9957f9cc9f89f87a7c912489f08119"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/a113f0c31267a68dcae2a82f60a5b86ab4c96204",
-                "reference": "a113f0c31267a68dcae2a82f60a5b86ab4c96204",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/4a1ab8e11e9957f9cc9f89f87a7c912489f08119",
+                "reference": "4a1ab8e11e9957f9cc9f89f87a7c912489f08119",
                 "shasum": ""
             },
             "require": {
@@ -1901,7 +1901,7 @@
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
                 "source": "https://github.com/phpstan/phpdoc-parser/tree/1.23.x"
             },
-            "time": "2023-07-20T15:18:24+00:00"
+            "time": "2023-07-24T11:53:35+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -3675,7 +3675,7 @@
     "aliases": [
         {
             "package": "pact-foundation/pact-php",
-            "version": "dev-ffi-next",
+            "version": "dev-ffi",
             "alias": "10.0.0",
             "alias_normalized": "10.0.0.0"
         }
