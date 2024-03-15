@@ -17,7 +17,7 @@ provider_start:
 	php -S localhost:8080 web/index.php
 
 test:
-	vendor/bin/phpunit
+	vendor/bin/phpunit --verbose --testdox
 
 start_and_test:
 	{ php -S localhost:8080 web/index.php & }; \
